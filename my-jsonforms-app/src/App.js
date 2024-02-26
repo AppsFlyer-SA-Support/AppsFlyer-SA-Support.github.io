@@ -33,10 +33,9 @@ const schema = {
           items: {
             type: "string",
             enum: ['', 'impressions', 'inapps', 'sessions', 'organicUninstalls', 'uninstalls', 'installs', 'clicks', 'inappsRetargeting', 
-            'conversionsRetargeting', 'sessionsRetargeting', 'clicksRetargeting', 'impressionsRetargeting', 'cohortUserAcquisition', 'cohortRetargeting',
-            'cohortUnified', 'websiteEvents', 'websiteVisits', 'websiteAssistedInstalls', 'reinstalls', 'organicReinstalls', 'blockedClicks',
-            'blockedInapps', 'blockedInstalls', 'postAttributionInstalls', 'skadPostbacks', 'skadAdvertiserPostbacks', 'skadConversionValueChangelog',
-            'skadInstalls', 'skadInapps', 'skadSrnAdvertisingDimensions', 'skadRedownloads', 'incrementalityInapps', 'incrementalityFirstSeenUsers',
+            'conversionsRetargeting', 'sessionsRetargeting', 'clicksRetargeting', 'impressionsRetargeting', 'websiteEvents', 'websiteVisits', 'websiteAssistedInstalls',
+            'reinstalls', 'organicReinstalls', 'blockedClicks', 'blockedInapps', 'blockedInstalls', 'postAttributionInstalls', 'skadPostbacks', 'skadAdvertiserPostbacks',
+            'skadConversionValueChangelog', 'skadInstalls', 'skadInapps', 'skadSrnAdvertisingDimensions', 'skadRedownloads', 'incrementalityInapps', 'incrementalityFirstSeenUsers',
             'incrementalitySessions', 'incrementalityInappsReattr', 'incrementalitySessionsReattr', 'incrementalityImpressions', 'incrementalityImpressionsRetarget',
             'incrementalityOrganicSessions', 'incrementalityOrganicInapps', 'attributedAdRevenue', 'organicAdRevenue', 'retargetingAdRevenue', 'attributedAdRevenueV2',
             'organicAdRevenueV2', 'retargetingAdRevenueV2', 'attributedAdrevenueSdkImpressionLevel', 'storesRawdata', 'storesDevicedata', 'adnetCohort', 'adnetAdRevenue',

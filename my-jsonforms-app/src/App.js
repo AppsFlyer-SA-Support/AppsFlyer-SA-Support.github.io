@@ -39,10 +39,10 @@ const schema = {
             'skadInstalls', 'skadInapps', 'skadSrnAdvertisingDimensions', 'skadRedownloads', 'incrementalityInapps', 'incrementalityFirstSeenUsers',
             'incrementalitySessions', 'incrementalityInappsReattr', 'incrementalitySessionsReattr', 'incrementalityImpressions', 'incrementalityImpressionsRetarget',
             'incrementalityOrganicSessions', 'incrementalityOrganicInapps', 'attributedAdRevenue', 'organicAdRevenue', 'retargetingAdRevenue', 'attributedAdRevenueV2',
-            'organicAdRevenueV2', 'retargetingAdRevenueV2', 'attributedAdrevenueSdkImpressionLevel', 'storesRawdata', 'storesDevicedata', 'cohortUserAcquisitionVersioned',
-            'adnetCohort', 'adnetAdRevenue', 'failedClickSignatures', 'blockedClicksImpressions', 'rawPostbacks', 'aggregatedPostbacks', 'cohortUserAcquisition', 
-            'cohortRetargeting', 'cohortUnified', 'cohortUserAcquisitionVersioned', 'cohortRetargetingVersioned', 'cohortUnifiedVersioned', 'cohortUserAcquisitionTimezoneVersioned',
-            'cohortRetargetingTimezoneVersioned', 'cohortUnifiedTimezoneVersioned', 'cohortUnifiedAgency', 'cohortRetargetingAgency', 'cohortUserAcquisitionAgency']
+            'organicAdRevenueV2', 'retargetingAdRevenueV2', 'attributedAdrevenueSdkImpressionLevel', 'storesRawdata', 'storesDevicedata', 'adnetCohort', 'adnetAdRevenue',
+            'failedClickSignatures', 'blockedClicksImpressions', 'rawPostbacks', 'aggregatedPostbacks', 'cohortUserAcquisition',  'cohortRetargeting', 'cohortUnified',
+            'cohortUserAcquisitionVersioned', 'cohortRetargetingVersioned', 'cohortUnifiedVersioned', 'cohortUserAcquisitionTimezoneVersioned', 'cohortRetargetingTimezoneVersioned',
+            'cohortUnifiedTimezoneVersioned', 'cohortUnifiedAgency', 'cohortRetargetingAgency', 'cohortUserAcquisitionAgency']
         }
       }
     },

@@ -11,7 +11,7 @@ import { JsonForms } from '@jsonforms/react';
 const schema = {
   type: 'object',
   properties: {
-    datalocker: {
+    person: {
       title: 'Data Locker Re-run',
       type: 'object',
       properties: {

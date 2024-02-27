@@ -1,0 +1,26 @@
+
+{
+    "type": "VerticalLayout",
+    "elements": [
+      {
+        "type": "Control",
+        "scope": "#/properties/clientId"
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/subscriptionId"
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/comment"
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/zenDeskTicket"
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/topics"
+      }
+    ]
+  }

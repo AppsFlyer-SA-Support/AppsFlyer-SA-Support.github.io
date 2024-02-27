@@ -9,10 +9,12 @@ import {
 } from '@jsonforms/material-renderers';
 import React, { useState } from 'react';
 import { JsonForms } from '@jsonforms/react';
+import { Unwrapped } from '@jsonforms/material-renderers';
+const { MaterialBooleanControl } = Unwrapped;
 
 /* const schema = person.schema;
-const uischema = person.uischema;
-const initialData = person.data; */
+const uischema = person.uischema; */
+const initialData = person.data; 
 
 function App() {
   const [data, setData] = useState(initialData);
@@ -20,7 +22,7 @@ function App() {
     <div className='App'>
       <JsonForms
         schema={schema}
-        uischema={uischema}
+        // uischema={uischema}
         data={data}
         renderers={materialRenderers}
         cells={materialCells}

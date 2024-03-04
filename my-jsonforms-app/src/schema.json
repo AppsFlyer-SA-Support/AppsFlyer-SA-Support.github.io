@@ -33,8 +33,7 @@
               "cohortUserAcquisitionVersioned", "cohortRetargetingVersioned", "cohortUnifiedVersioned", "cohortUserAcquisitionTimezoneVersioned", "cohortRetargetingTimezoneVersioned",
               "cohortUnifiedTimezoneVersioned", "cohortUnifiedAgency", "cohortRetargetingAgency", "cohortUserAcquisitionAgency"]
           }
-        }
-        ,
+        },
         "from": {
           "type": "string",
           "format": "date",

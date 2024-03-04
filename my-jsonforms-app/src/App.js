@@ -14,7 +14,7 @@ const { MaterialBooleanControl } = Unwrapped;
 
 /* const schema = person.schema;
 const uischema = person.uischema; */
-const initialData = person.data; 
+const initialData = person.data;
 
 function App() {
   const [data, setData] = useState(initialData);

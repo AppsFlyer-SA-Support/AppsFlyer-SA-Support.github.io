@@ -33,7 +33,16 @@
               "cohortUserAcquisitionVersioned", "cohortRetargetingVersioned", "cohortUnifiedVersioned", "cohortUserAcquisitionTimezoneVersioned", "cohortRetargetingTimezoneVersioned",
               "cohortUnifiedTimezoneVersioned", "cohortUnifiedAgency", "cohortRetargetingAgency", "cohortUserAcquisitionAgency"]
           }
-        },
+        }
+        ,
+        "from": {
+          "type": "string",
+          "format": "date",
+          "description": "schema-based date picker"},
+          "to": {
+            "type": "string",
+            "format": "date",
+            "description": "schema-based date picker"},
         "required": ["clientId", "subscriptionId"]
       }
     }

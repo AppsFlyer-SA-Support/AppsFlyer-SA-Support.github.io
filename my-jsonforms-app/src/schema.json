@@ -13,7 +13,16 @@
       "zenDeskTicket": {
         "type": "string"
       },
-      "topics": {
+        "from": {
+          "type": "string",
+          "format": "date"
+        },
+        "to": {
+          "type": "string",
+          "format": "date"
+        },
+        "required": ["clientId", "zenDeskTicket"],
+        "topics": {
         "type": "array",
         "uniqueItems": true,
         "items": {
@@ -28,14 +37,6 @@
           "failedClickSignatures", "blockedClicksImpressions", "rawPostbacks", "aggregatedPostbacks", "cohortUserAcquisition",  "cohortRetargeting", "cohortUnified",
           "cohortUserAcquisitionVersioned", "cohortRetargetingVersioned", "cohortUnifiedVersioned", "cohortUserAcquisitionTimezoneVersioned", "cohortRetargetingTimezoneVersioned",
           "cohortUnifiedTimezoneVersioned", "cohortUnifiedAgency", "cohortRetargetingAgency", "cohortUserAcquisitionAgency"]
-        },
-        "from": {
-          "type": "string",
-          "format": "date"
-        },
-        "to": {
-          "type": "string",
-          "format": "date"
         }
       }
     }

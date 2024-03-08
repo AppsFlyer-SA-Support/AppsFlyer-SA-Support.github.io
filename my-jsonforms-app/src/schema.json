@@ -49,7 +49,6 @@
           "cohortUserAcquisitionVersioned", "cohortRetargetingVersioned", "cohortUnifiedVersioned", "cohortUserAcquisitionTimezoneVersioned", "cohortRetargetingTimezoneVersioned",
           "cohortUnifiedTimezoneVersioned", "cohortUnifiedAgency", "cohortRetargetingAgency", "cohortUserAcquisitionAgency"]
         }
-      },
-      "required": ["clientId", "zenDeskTicket"]
+      }
     }
   }

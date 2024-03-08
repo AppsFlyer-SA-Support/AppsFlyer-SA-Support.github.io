@@ -1,26 +1,72 @@
-
 {
-    "type": "VerticalLayout",
-    "elements": [
-      {
-        "type": "Control",
-        "scope": "#/properties/clientId"
-      },
-      {
-        "type": "Control",
-        "scope": "#/properties/subscriptionId"
-      },
-      {
-        "type": "Control",
-        "scope": "#/properties/comment"
-      },
-      {
-        "type": "Control",
-        "scope": "#/properties/zenDeskTicket"
-      },
-      {
-        "type": "Control",
-        "scope": "#/properties/topics"
+  "type": "VerticalLayout",
+  "elements": [
+    {
+      "type": "Control",
+      "scope": "#/properties/clientId",
+      "label": "Client ID"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/subscriptionId",
+      "label": "Subscription ID"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/comment",
+      "label": "Comment",
+      "options": {
+        "multi": true
       }
-    ]
-  }
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/zenDeskTicket",
+      "label": "ZenDesk Ticket"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/includeHours",
+      "label": "Include Hours"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/priority",
+      "label": "Priority"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/overwrite",
+      "label": "Overwrite"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/submittedBy",
+      "label": "Submitted By"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/from",
+      "label": "From Date",
+      "options": {
+        "format": "date"
+      }
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/to",
+      "label": "To Date",
+      "options": {
+        "format": "date"
+      }
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/topics",
+      "label": "Topics",
+      "options": {
+        "multi": true
+      }
+    }
+  ]
+}

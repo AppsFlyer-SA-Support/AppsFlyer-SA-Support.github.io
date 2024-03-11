@@ -19,12 +19,12 @@ const initialData = {
   subscriptionId: '',
   comment: '',
   zenDeskTicket: '',
-  includeHours: '',
   priority: '',
   overwrite: '',
   submittedBy: '',
   from: '', // In real case, you should use a date string compatible with date input type
   to: '', // Same as above comment for the date
+  includeHours: [],
   topics: []
 };
 

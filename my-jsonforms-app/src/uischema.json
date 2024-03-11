@@ -26,11 +26,6 @@
     },
     {
       "type": "Control",
-      "scope": "#/properties/includeHours",
-      "label": "Include Hours"
-    },
-    {
-      "type": "Control",
       "scope": "#/properties/priority",
       "label": "Priority"
     },
@@ -59,6 +54,11 @@
       "options": {
         "format": "date"
       }
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/includeHours",
+      "label": "Include Hours"
     },
     {
       "type": "Control",

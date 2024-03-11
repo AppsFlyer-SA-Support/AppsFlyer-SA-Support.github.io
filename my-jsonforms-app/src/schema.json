@@ -13,9 +13,6 @@
       "zenDeskTicket": {
         "type": "string"
       },
-      "includeHours": {
-        "type": "string"
-      },
       "priority": {
         "type": "string"
       },
@@ -33,12 +30,22 @@
           "type": "string",
           "format": "date"
         },
+        "includeHours": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "enum": ["0", "1", "2", "3", "4", "5", "6",
+            "7", "8", "9", "10", "11", "12", "13", "14",
+            "15", "16", "18", "19", "20", "21", "22", "23"]
+          }
+        },
         "topics": {
         "type": "array",
         "uniqueItems": true,
         "items": {
           "type": "string",
-          "enum": ["", "impressions", "inapps", "sessions", "organicUninstalls", "uninstalls", "installs", "clicks", "inappsRetargeting", 
+          "enum": ["impressions", "inapps", "sessions", "organicUninstalls", "uninstalls", "installs", "clicks", "inappsRetargeting", 
           "conversionsRetargeting", "sessionsRetargeting", "clicksRetargeting", "impressionsRetargeting", "websiteEvents", "websiteVisits", "websiteAssistedInstalls",
           "reinstalls", "organicReinstalls", "blockedClicks", "blockedInapps", "blockedInstalls", "postAttributionInstalls", "skadPostbacks", "skadAdvertiserPostbacks",
           "skadConversionValueChangelog", "skadInstalls", "skadInapps", "skadSrnAdvertisingDimensions", "skadRedownloads", "incrementalityInapps", "incrementalityFirstSeenUsers",
